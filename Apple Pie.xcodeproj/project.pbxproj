@@ -15,6 +15,7 @@
 		8467E39C24564BD90072F048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8467E39A24564BD90072F048 /* LaunchScreen.storyboard */; };
 		8467E3A724564BD90072F048 /* Apple_PieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E3A624564BD90072F048 /* Apple_PieTests.swift */; };
 		8467E3B224564BD90072F048 /* Apple_PieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E3B124564BD90072F048 /* Apple_PieUITests.swift */; };
+		8467E3C02456A60D0072F048 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E3BF2456A60D0072F048 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8467E3AD24564BD90072F048 /* Apple PieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple PieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467E3B124564BD90072F048 /* Apple_PieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_PieUITests.swift; sourceTree = "<group>"; };
 		8467E3B324564BD90072F048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8467E3BF2456A60D0072F048 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8467E39824564BD90072F048 /* Assets.xcassets */,
 				8467E39A24564BD90072F048 /* LaunchScreen.storyboard */,
 				8467E39D24564BD90072F048 /* Info.plist */,
+				8467E3BF2456A60D0072F048 /* Game.swift */,
 			);
 			path = "Apple Pie";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				8467E39424564BD50072F048 /* ViewController.swift in Sources */,
 				8467E39024564BD50072F048 /* AppDelegate.swift in Sources */,
 				8467E39224564BD50072F048 /* SceneDelegate.swift in Sources */,
+				8467E3C02456A60D0072F048 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +377,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -426,6 +431,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -444,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.version-1.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -462,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.version-1.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
